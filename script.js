@@ -121,15 +121,15 @@ const portfolioItems = [
     }
 ];
 
-// Get category name for display
+// Get category name for display - VERSION CORRIGÉE
 function getCategoryName(category) {
     const categoryNames = {
         'all': 'Tous',
-        'branding': 'Branding',
+        'Tableau': 'Tableau',
         'Affiche': 'Affiche',
-        'logo': 'Logo',
-        'impression': 'Impression'
-        'personnalisation': 'Personnalisation sur tous supports',
+        'Logo': 'Logo',
+        'Impression': 'Impression',
+        'personnalisation': 'Personnalisation sur tous supports'
     };
     
     return categoryNames[category] || category;
@@ -353,6 +353,7 @@ contactForm.addEventListener('submit', (e) => {
     }
 
 });
+
 
 
 
