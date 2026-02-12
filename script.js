@@ -117,7 +117,7 @@ const portfolioItems = [
         title: "Signalétique boutique",
         description: "Enseigne et supports publicitaires personnalisés.",
         category: "personnalisation",
-        image: "https://images.unsplash.com/photo-1577023311546-cdc07a8454d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1074&q=80"
+        image: "logo5.jpg"
     }
 ];
 
@@ -126,9 +126,9 @@ function getCategoryName(category) {
     const categoryNames = {
         'all': 'Tous',
         'branding': 'Branding',
-        'web': 'Affiche',
-        'print': 'Logo',
-        'social': 'Impression'
+        'Affiche': 'Affiche',
+        'logo': 'Logo',
+        'impression': 'Impression'
         'personnalisation': 'Personnalisation sur tous supports',
     };
     
@@ -353,6 +353,7 @@ contactForm.addEventListener('submit', (e) => {
     }
 
 });
+
 
 
 
