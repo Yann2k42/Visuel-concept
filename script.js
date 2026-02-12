@@ -111,6 +111,13 @@ const portfolioItems = [
         description: "Le logo d'une société de formation",
         category: "Logo",
         image: "logo5.jpg"
+    },
+    {
+        id: 15,
+        title: "Signalétique boutique",
+        description: "Enseigne et supports publicitaires personnalisés.",
+        category: "personnalisation",
+        image: "https://images.unsplash.com/photo-1577023311546-cdc07a8454d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1074&q=80"
     }
 ];
 
@@ -346,5 +353,6 @@ contactForm.addEventListener('submit', (e) => {
     }
 
 });
+
 
 
