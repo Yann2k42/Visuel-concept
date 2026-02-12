@@ -122,6 +122,7 @@ function getCategoryName(category) {
         'web': 'Affiche',
         'print': 'Logo',
         'social': 'Impression'
+        'personnalisation': 'Personnalisation sur tous supports'
     };
     
     return categoryNames[category] || category;
@@ -345,3 +346,4 @@ contactForm.addEventListener('submit', (e) => {
     }
 
 });
+
