@@ -76,6 +76,41 @@ const portfolioItems = [
         description: "Affiche professionnelle pour la promotion d'un événement ",
         category: "Affiche",
         image: "img7.jpg"
+    },
+    {
+        id: 10,
+        title: "Logo",
+        description: "Le logo d'une entreprise Telecom",
+        category: "Logo",
+        image: "logo1.jpg"
+    },
+    {
+        id: 11,
+        title: "Logo",
+        description: "Le logo d'une entreprise multiservice",
+        category: "Logo",
+        image: "logo2.jpg"
+    },
+    {
+        id: 12,
+        title: "Logo",
+        description: "Le logo d'une entreprise d'hydrocarbure",
+        category: "Logo",
+        image: "logo3.jpg"
+    },
+    {
+        id: 13,
+        title: "Logo",
+        description: "Le logo d'un club de sport",
+        category: "Logo",
+        image: "logo4.jpg"
+    },
+    {
+        id: 14,
+        title: "Logo",
+        description: "Le logo d'une société de formation",
+        category: "Logo",
+        image: "logo5.jpg"
     }
 ];
 
@@ -308,4 +343,5 @@ contactForm.addEventListener('submit', (e) => {
         `;
         contactForm.parentNode.appendChild(copyLink);
     }
+
 });
