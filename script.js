@@ -114,13 +114,6 @@ const portfolioItems = [
     },
     {
         id: 15,
-        title: "Signalétique boutique",
-        description: "Enseigne et supports publicitaires personnalisés.",
-        category: "personnalisation",
-        image: "logo5.jpg"
-    },
-    {
-        id: 15,
         title: "tee-shirt personnalisé",
         description: "voici un tee-shirt personnalisé pour un client.",
         category: "personnalisation",
@@ -423,6 +416,7 @@ contactForm.addEventListener('submit', (e) => {
     }
 
 });
+
 
 
 
