@@ -48,7 +48,7 @@ h1, h2, h3, h4 {
 }
 
 .highlight {
-    color: #913831;
+    color: red;
 }
 
 .btn {
@@ -779,3 +779,4 @@ h1, h2, h3, h4 {
     }
 
 }
+
