@@ -118,7 +118,77 @@ const portfolioItems = [
         description: "Enseigne et supports publicitaires personnalisés.",
         category: "personnalisation",
         image: "logo5.jpg"
-    }
+    },
+    {
+        id: 15,
+        title: "tee-shirt personnalisé",
+        description: "voici un tee-shirt personnalisé pour un client.",
+        category: "personnalisation",
+        image: "img25.jpg"
+    },
+    {
+        id: 16,
+        title: "maillot personnalisé",
+        description: "voici un maillot personnalisé pour un client.",
+        category: "personnalisation",
+        image: "im26.jpg"
+    },
+    {
+        id: 17,
+        title: "porte-clé personnalisé",
+        description: "voici des portes-clés personnalisé pour des clients.",
+        category: "personnalisation",
+        image: "img22.jpg"
+    },
+    {
+        id: 18,
+        title: "maillot personnalisé",
+        description: "voici un maillot personnalisé pour un client.",
+        category: "personnalisation",
+        image: "img21.jpg"
+    },
+    {
+        id: 19,
+        title: "maillot personnalisé",
+        description: "voici un maillot personnalisé pour une cliente.",
+        category: "personnalisation",
+        image: "img24.jpg"
+    },
+    {
+        id: 20,
+        title: "Tableau pour une femme",
+        description: "elle voulait un résultat épuré qui reflète sa joie de vivre",
+        category: "Tableau",
+        image: "img16.jpg"
+    },
+    {
+        id: 21,
+        title: "Tableau pour une femme",
+        description: "elle voulait un résultat simple et naturelle",
+        category: "Tableau",
+        image: "img17.jpg"
+    },
+    {
+        id: 22,
+        title: "Tableau pour un homme",
+        description: "elle voulait un résultat épuré qui reflète son style",
+        category: "Tableau",
+        image: "img18.jpg"
+    },
+    {
+        id: 23,
+        title: "Tableau pour une femme",
+        description: "elle voulait un résultat épuré qui reflète sa joie de vivre",
+        category: "Tableau",
+        image: "img19.jpg"
+    },
+    {
+        id: 24,
+        title: "Tableau pour une femme",
+        description: "tableau pour immortaliser un beau moment",
+        category: "Tableau",
+        image: "img20.jpg"
+        }
 ];
 
 // Get category name for display - VERSION CORRIGÉE
@@ -353,6 +423,7 @@ contactForm.addEventListener('submit', (e) => {
     }
 
 });
+
 
 
 
